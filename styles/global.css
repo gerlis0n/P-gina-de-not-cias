@@ -26,6 +26,10 @@ body{
   background-color: var(--bg-color);
 }
 
+main {
+  margin-top: 40px;
+}
+
 a{
   text-decoration: none;
   color: inherit; /*Herdar do elemento pai BODY ou outro*/
@@ -39,17 +43,12 @@ h1, h2, h3{
   font: inherit;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   max-width: 1280px;
   padding-inline: 32px;
   margin-inline: auto;
-}
-
-.grid {
-  display: grid;
-
-}
-
-.grid-flow-col{
-  grid-auto-flow:column;
 }
